@@ -23,6 +23,8 @@ print(U)
 ~~~
 ## Output:
 ![lu decomposition](Capture.jpg)
+
+
 ## Program to solve a matrix using LU decomposition:
 ~~~
 import numpy as np
@@ -33,6 +35,9 @@ lu,piv = lu_factor(A)
 x = lu_solve((lu,piv),B)
 print (x)
 ~~~
+
+
+
 ## Output:
 ![lu decomposition](Capture1.jpg)
 ## Result:
